@@ -7,6 +7,8 @@ tags:
   - welcome
   - info
 ---
+# {{ title }}
+**Date** {{date}}
 
 <div class="row">
   <div class="main-content col-lg-9">

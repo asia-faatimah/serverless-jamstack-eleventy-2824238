@@ -36,6 +36,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
 
+module.export=function(eleventyConfig ){
+
+  eleventyConfig.addPassthroughCopy('./_site/images'); 
 
   return {
     markdownTemplateEngine: 'njk',
@@ -47,4 +50,5 @@ module.exports = function(eleventyConfig) {
       output: 'dist'
     }
   }
+}
 }
